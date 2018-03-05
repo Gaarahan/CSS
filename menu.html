@@ -1,0 +1,172 @@
+<!--
+*Authored by Gaarahan 
+*
+* 2018年 02月 12日 星期一 21:19:16 CST
+*
+* Comment:使用css制作一个杂志目录
+*
+-->
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html" charset="UTF-8"/>
+        <title>目录</title>
+        <style>
+        <!--
+            li{
+                margin-bottom:20px;
+                clear:both;/*从下一行开始浮动*/
+            }
+            ul{
+                float:left;
+                padding-left:20px;
+                list-style-type:none;
+            }
+            h4{
+                text-align:center;
+                width:30px;
+                height:30px;
+                font-family:Times;
+                background:#CCCCCC;
+                float:left;
+            }         
+            #frame{
+                border:#CCCCCC 5px dashed;
+                float:left;
+                padding:20px;
+                background-image: -webkit-gradient(linear,left top,left bottom,
+                    color-stop(0,#FFF),color-stop(1,#DDD));
+            }
+            .titlefrm{
+                float:left;
+                width:400px;
+                margin-right:30px;
+                margin-bottom:15px;
+            }
+            .title{
+                font-size:12px;
+                color:#FFF;
+                background-color:#aaa;
+                width:200px;
+                padding-left:5px;
+                float:left;
+            }
+            .content{
+                clear:both;
+                font-size:28px;
+                font-weight:bold;
+                padding:10px;
+                color:#70A6F8;
+            }
+            /*图片部分*/
+            img{
+                width:250px;
+                display:block;
+                position:absolute;
+            }
+            .pic{
+                float:left;
+                width:400px;
+                height:650px;
+                position:relative;
+            }
+            .p2{
+                top:100px;
+                left:150px;
+            }
+            .p3{
+                top:300px;
+                left:0px;
+            }
+        -->
+        </style>
+    </head>
+
+    <body>
+        <div id="frame">
+            <div>
+                <ul>
+                    <li>
+                        <h4>10</h4>
+                        <div class="titlefrm">
+                            <div class="title">
+                                joker的台前幕后
+                            </div>
+                            <div class="content">
+                                希斯.莱杰的抑郁人生
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>15</h4>
+                        <div class="titlefrm">
+                            <div class="title">
+                                全球潮流控
+                            </div>
+                            <div class="content">
+                                法国巴黎，转不完的流行时尚
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>21</h4>
+                        <div class="titlefrm">
+                            <div class="title">
+                                前卫壁纸分享
+                            </div>
+                            <div class="content">
+                                Gaarahan的壁纸们
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="pic">
+                    <img src="source/joker.jpg" id="joker" />
+                    <img src="#" id="pair" class="p2" />
+                    <img src="source/lan.jpg" id="wall" class="p3" />
+                </div>
+            </div>
+            <div style="clear:both;">
+                <div class="pic">
+                    <img src="source/bg.png" id="it" />
+                    <img src="source/yellow.jpg" id="yellow" class="p2"/>
+                    <img src="source/gaara.jpg" id="gaara" class="p3" />
+                </div>
+                <ul>
+                    <li>
+                        <h4>31</h4>
+                        <div class="titlefrm">
+                            <div class="title">
+                                进军IT圈
+                            </div>
+                            <div class="content">
+                                百度，你的底线呢？
+                            </div>
+                        <div>
+                    </li>
+                    <li>
+                        <h4>38</h4>
+                        <div class="titlefrm">
+                            <div class="title">
+                                影视前线
+                            </div>
+                            <div class="content">
+                                小黄人贱萌来袭
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>45</h4>
+                        <div class="titlefrm">
+                            <div class="title">
+                                娱乐天空
+                            </div>
+                            <div class="content">
+                                “沙瀑我爱罗”的成长
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

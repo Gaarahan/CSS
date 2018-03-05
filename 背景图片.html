@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html" charset="UTF-8"/>
+        <title>背景图片</title>
+        <style>
+            <!--
+                
+                div{
+                    float:left;
+                    border:solid 5px red;
+                    background:url('source/bg.png');
+                    height:500px;
+                    width:500px;
+                }
+                #div2{
+                    background-repeat:repeat-y;
+                }
+                #div3{
+                    background-repeat:repeat-x;
+                }
+                #div4{
+                    background-repeat:no-repeat;
+                    background-position:top center; 
+                }
+                #div5{
+                    height:1000px;
+                    width:600px;
+                    background-repeat:repeat-y;
+                    background-attachment:fixed;
+                }
+                #div_f{
+                    background-image:none;
+                    overflow:scroll;
+                }
+                #div6{
+                    background-image:url(source/bg.png);
+                }
+                #div_s{
+                    opacity:0.8;/*设置不透明度，0~1之间，越大越不透明*/
+                    text-align:right;
+                    border:solid 10 #FF0000;
+                    background-size:cover;
+                    background-image:url(source/joker.jpg);
+                    width:400px;
+                    height:400px;
+                }
+            -->
+        </style>
+    </head>
+
+    <body>
+        <div id="div1">
+            默认自动重复排版
+        </div>
+        <div id="div2">
+            设置竖直（y方向）重复
+        </div>
+        <div id="div3">
+            设置水平（x方向）重复
+        </div>
+        <div id="div4">
+            取消重复，调整位置(top center)
+        </div>
+        <div id="div_f">
+            <div id="div5">
+               设置背景图片不随滚动条滚动（fixed） 
+            </div>
+        </div>
+        <div id="div6">
+            <div id="div_s">
+               
+            </div>
+        </div>
+    </body>
+</html>
