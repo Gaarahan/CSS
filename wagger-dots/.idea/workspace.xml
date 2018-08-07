@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f3945fc-b8e6-4bcd-b483-daecf0e91870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.腾讯云.html.swp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-ballBox/.idea/3D-ballBox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-ballBox/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-ballBox/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-ballBox/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-ballBox/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-ballBox/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-ballBox/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-box/images/img (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-box/images/img (2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-box/images/img (3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-box/images/img (4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-box/images/img (5).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-box/images/img (6).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-box/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3D-box/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css3D/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css3D/.idea/css3D.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css3D/.idea/dictionaries/gaarahan.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css3D/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css3D/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css3D/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css3D/style1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../loadCircle/.idea/loadCircle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../loadCircle/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../loadCircle/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../loadCircle/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../loadCircle/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pulse/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pulse/.idea/pulse.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pulse/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pulse/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pulse/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pulse/pulse.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/wagger dots.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/wagger-dots.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css_1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../div制作表格.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../introduce.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js文字走马灯.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../move_text.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../source/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../source/gaara.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../source/joker.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../source/lan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../source/yellow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../style_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tags" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../图片旋转.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../文字阴影.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../背景图片.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../表格.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.腾讯云.html.swp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -237,15 +178,15 @@
       <option name="presentableId" value="Default" />
       <updated>1533560188678</updated>
       <workItem from="1533560194915" duration="3724000" />
-      <workItem from="1533600074100" duration="4232000" />
+      <workItem from="1533600074100" duration="5599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7956000" />
+    <option name="totallyTimeSpent" value="9323000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1367" y="-11" width="1368" height="780" extended-state="6" />
+    <frame x="-1367" y="-779" width="1368" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24924472" />
