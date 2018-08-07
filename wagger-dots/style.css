@@ -1,0 +1,92 @@
+html,body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+  background-color: #ac6e18;
+}
+.main-contain{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+span{
+  float: left;
+  display: block;
+  width: 3em;
+  height: 3em;
+  box-sizing: border-box;
+}
+
+:root{
+  --aniTime : 3s;
+}
+
+span:before{
+  content: "";
+  width: 3em;
+  height: 3em;
+  left: calc(3*var(--num))em;
+  display: block;
+  border-radius: 50%;
+  background-color: white;
+  animation:
+      move linear infinite var(--aniTime),
+      square linear infinite var(--aniTime),
+      jump linear infinite var(--aniTime);
+  animation-delay: calc(var(--num)*var(--aniTime)/5*-1);
+  position: absolute;
+}
+
+span:nth-child(1){
+  --num:1;
+}
+
+span:nth-child(2){
+  --num:2;
+}
+
+span:nth-child(3){
+  --num:3;
+}
+
+span:nth-child(4){
+  --num:4;
+}
+
+span:nth-child(5){
+  --num:5;
+}
+
+@keyframes square {
+  0%,10%,100%{
+    width: 3em;
+    height: 3em;
+  }
+  1%,9%{
+    width: 3em;
+    height: 1.5em;
+  }
+}
+
+@keyframes move {
+  0% ,100%{
+    left:0;
+    top: 0;
+  }
+  10%{
+    left: 15em;
+    top: 0;
+  }
+}
+
+@keyframes jump {
+  0%,10%,100%{
+    top: 0;
+  }
+  1%,9%{
+    top: -2em;
+  }
+}
