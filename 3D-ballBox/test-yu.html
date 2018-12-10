@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            background-color: #000000;
+        }
+        #con{
+            position: relative;
+            perspective: 500px;
+            height: 100%;
+            width: 100%;
+            border: none;
+        }
+        .rotating-box{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform-style: preserve-3d;
+            animation: rorates linear infinite 6s;
+        }
+        .box{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 150px;
+            height: 150px;
+            border: none ;
+            transform-style: preserve-3d;
+            transform: translate(-50%,-50%);
+        }
+        .box div{
+              width: 150px;
+              height: 150px;
+              position: absolute;
+              border: 1px solid #cccccc;
+              background-size:150px 150px ;
+          }
+        .box2{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 300px;
+            height: 300px;
+            border: none ;
+            transform-style: preserve-3d;
+            transform: translate(-50%,-50%);
+        }
+        .box2 div{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            background-color: rgba(165, 215, 205, 0.3);
+            border: 1px solid #b6b6b6;
+            background-size:300px 300px ;
+        }
+        .box div:nth-child(1){
+             transform: rotateY(90deg) translateZ(75px);
+             background-image: url("image/1.jpg");
+        }
+        .box div:nth-child(2){
+             transform: rotateY(-90deg) translateZ(75px);
+            background-image: url("image/10.jpg");
+        }
+        .box div:nth-child(3){
+            transform: rotateX(90deg) translateZ(75px);
+            background-image: url("image/3.jpg");
+        }
+        .box div:nth-child(4){
+            transform: rotateX(-90deg) translateZ(75px);
+            background-image: url("image/4.jpg");
+        }
+        .box div:nth-child(5){
+            transform: translateZ(75px);
+            background-image: url("image/5.jpg");
+        }
+        .box div:nth-child(6){
+            transform: rotateX(180deg) translateZ(75px);
+            background-image: url("image/6.jpg");
+        }
+        .box2 div:nth-child(1){
+            transform: rotateY(90deg) translateZ(150px);
+        }
+         .box2 div:nth-child(2){
+            transform: rotateY(-90deg) translateZ(150px);
+        }
+         .box2 div:nth-child(3){
+            transform: rotateX(90deg) translateZ(150px);
+        }
+         .box2 div:nth-child(4){
+            transform: rotateX(-90deg) translateZ(150px);
+        }
+         .box2 div:nth-child(5){
+            transform: translateZ(150px);
+        }
+         .box2 div:nth-child(6){
+            transform: rotateX(180deg) translateZ(150px);
+        }
+
+        @keyframes rorates {
+            0%{
+                transform:  translate(-50%,-50%) rotateX(0) rotateY(0);
+            }
+            100%{
+                transform:  translate(-50%,-50%) rotateX(360deg) rotateY(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="con">
+    <div class="rotating-box">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="box2">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div>
+<script>
+    const boxs = document.getElementsByClassName("box2")[0];
+    console.log(boxs);
+    const divs = boxs.getElementsByTagName("div");
+    console.log(divs);
+    boxs.onmouseover = function () {
+       divs[0].style.transform = 'rotateY(90deg) translateZ(250px)';
+       divs[0].style.backgroundImage = 'url('+"image/7.jpg"+')';
+       divs[1].style.transform = 'rotateY(-90deg) translateZ(250px)';
+       divs[1].style.backgroundImage = 'url('+"image/8.jpg"+')';
+       divs[2].style.transform = 'rotateX(90deg) translateZ(250px)';
+       divs[2].style.backgroundImage = 'url('+"image/9.jpg"+')';
+       divs[3].style.transform = 'rotateX(-90deg) translateZ(250px)';
+       divs[3].style.backgroundImage = 'url('+"image/10.jpg"+')';
+       divs[4].style.transform = 'translateZ(250px)';
+       divs[4].style.backgroundImage = 'url('+"image/5.jpg"+')';
+       divs[5].style.transform = 'rotateX(180deg) translateZ(250px)';
+       divs[5].style.backgroundImage = 'url('+"image/6.jpg"+')';
+    };
+    boxs.onmouseout = function () {
+        divs[0].style.transform = 'rotateY(90deg) translateZ(150px)';
+        divs[1].style.transform = 'rotateY(-90deg) translateZ(150px)';
+        divs[2].style.transform = 'rotateX(90deg) translateZ(150px)';
+        divs[3].style.transform = 'rotateX(-90deg) translateZ(150px)';
+        divs[4].style.transform = 'translateZ(150px)';
+        divs[5].style.transform = 'rotateX(180deg) translateZ(150px)';
+        for(let i =0;i<divs.length;i++){
+            divs[i].style.backgroundImage = 'none';
+        }
+    }
+</script>
+</body>
+</html>
